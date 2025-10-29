@@ -1,0 +1,60 @@
+.projects-section {
+  border-radius: 1rem;
+  background-color: #fff;
+  position: relative;
+
+  .project-slider {
+    position: relative;
+    height: 180px;
+  }
+
+  .project-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: #ffffff;
+    transition: all 0.4s ease;
+    box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.08);
+
+    .badge {
+      font-size: 0.75rem;
+      background-color: #eef3ff;
+      border: 1px solid #d0d7ff;
+      color: #0d6efd;
+      border-radius: 50rem;
+      padding: 0.4em 0.75em;
+    }
+  }
+
+  .btn-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffffcc;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #0d6efd;
+      color: #fff;
+    }
+
+    &.btn-prev {
+      left: 0.5rem;
+    }
+
+    &.btn-next {
+      right: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<div class="experience-container text-center position-relative py-5">
+  <h4 class="mb-4 fw-bold">Professional Experience</h4>
+
+  <!-- Navigation Arrows - Moved Outside -->
+  <button class="nav-btn left" (click)="prev()">&#10094;</button>
+  <button class="nav-btn right" (click)="next()">&#10095;</button>
+
+  <!-- Card Container -->
+  <div class="card-container mx-auto">
+    <div
+      class="exp-card"
+      *ngFor="let exp of experiences; let i = index"
+      [class.active]="i === currentIndex"
+    >
+      <div class="card-glass p-4 shadow-lg">
+        <h5 class="text-primary">{{ exp.projectTitle }}</h5>
+        <p class="mb-1 fw-semibold">{{ exp.companyName }}</p>
+        <p class="small text-muted">{{ exp.role }}</p>
+        <p class="text-secondary small">
+          <strong>Platform:</strong> {{ exp.platform }}
+        </p>
+        <p class="mt-2">{{ exp.description }}</p>
+
+        <ul class="text-start small mt-3">
+          <li *ngFor="let r of exp.responsibilities">{{ r }}</li>
+        </ul>
+
+        <div class="duration mt-4">
+          <span class="badge bg-info text-dark px-3 py-2 shadow-sm">
+            ⏱ Duration: {{ exp.duration }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dots (Indicators) -->
+  <div class="indicators mt-4">
+    <span
+      *ngFor="let exp of experiences; let i = index"
+      class="dot"
+      [class.active]="i === currentIndex"
+      (click)="currentIndex = i"
+    ></span>
+  </div>
+</div>

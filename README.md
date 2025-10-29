@@ -1,0 +1,1 @@
+Sandeep Kushwaha — Angular 17 Standalone Portfolio (Bootstrap + SCSS)\n\nRun:\n1. npm install --legacy-peer-deps\n2. npx ng serve --open\n

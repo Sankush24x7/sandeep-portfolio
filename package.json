@@ -1,0 +1,35 @@
+{
+  "name": "sandeep-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build --configuration production",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.3.12",
+    "@angular/common": "^17.3.12",
+    "@angular/compiler": "^17.3.12",
+    "@angular/core": "^17.3.12",
+    "@angular/forms": "^17.3.12",
+    "@angular/platform-browser": "^17.3.12",
+    "@angular/platform-browser-dynamic": "^17.3.12",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "emailjs-com": "^3.2.0",
+    "ngx-typed-js": "^2.1.1",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.5.0",
+    "zone.js": "^0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.12",
+    "@angular/cli": "^17.3.12",
+    "@angular/compiler-cli": "^17.3.12",
+    "angular-cli-ghpages": "^2.0.3",
+    "typescript": "~5.2.2"
+  }
+}

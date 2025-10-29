@@ -1,0 +1,15 @@
+<div class="card card-compact p-3 mb-4" id="contact">
+  <h5>Contact</h5>
+  <form (ngSubmit)="submit()" #f="ngForm">
+    <div class="mb-2">
+      <input name="name" [(ngModel)]="model.name" class="form-control" placeholder="Your name" required />
+    </div>
+    <div class="mb-2">
+      <input name="email" [(ngModel)]="model.email" class="form-control" placeholder="Your email" required />
+    </div>
+    <div class="mb-2">
+      <textarea name="message" [(ngModel)]="model.message" rows="3" class="form-control" placeholder="Message" required></textarea>
+    </div>
+    <button class="btn btn-outline-primary w-100" [disabled]="submitted">{{submitted ? 'Sending...' : 'Send Message'}}</button>
+  </form>
+</div>

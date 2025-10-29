@@ -1,0 +1,82 @@
+{
+  "hash": "947c1499",
+  "configHash": "5d803a98",
+  "lockfileHash": "ba6a7768",
+  "browserHash": "c4afe720",
+  "optimized": {
+    "@angular/animations": {
+      "src": "../../../../../node_modules/@angular/animations/fesm2022/animations.mjs",
+      "file": "@angular_animations.js",
+      "fileHash": "49525c0c",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "fdb92521",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "32ad692b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "9718e7d6",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "4e09697f",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "e75cb409",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "838c1f97",
+      "needsInterop": false
+    },
+    "bootstrap/dist/js/bootstrap.bundle.min.js": {
+      "src": "../../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "file": "bootstrap_dist_js_bootstrap__bundle__min__js.js",
+      "fileHash": "849ebaad",
+      "needsInterop": true
+    },
+    "ngx-typed-js": {
+      "src": "../../../../../node_modules/ngx-typed-js/fesm2020/ngx-typed-js.mjs",
+      "file": "ngx-typed-js.js",
+      "fileHash": "8269aeb1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JAZD2XQQ": {
+      "file": "chunk-JAZD2XQQ.js"
+    },
+    "chunk-KQIIH4T3": {
+      "file": "chunk-KQIIH4T3.js"
+    },
+    "chunk-7S6ZJ5NG": {
+      "file": "chunk-7S6ZJ5NG.js"
+    },
+    "chunk-Y3DQFHG3": {
+      "file": "chunk-Y3DQFHG3.js"
+    },
+    "chunk-I7U5GJVG": {
+      "file": "chunk-I7U5GJVG.js"
+    },
+    "chunk-3OV72XIM": {
+      "file": "chunk-3OV72XIM.js"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-light">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#">Sandeep</a>
+
+    <!-- Toggler Button (Visible on Mobile) -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item" *ngFor="let item of navItems">
+          <a
+            class="nav-link"
+            href="#{{ item.id }}"
+            [class.active]="activeSection === item.id"
+            (click)="closeNavbar()"
+          >
+            {{ item.label }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
