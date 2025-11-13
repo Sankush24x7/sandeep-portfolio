@@ -39,23 +39,23 @@ export class ExperienceComponent implements OnInit {
       ],
       startDate: new Date('2024-04-01')
     },
-    {
-      projectTitle: 'SBI Portal (Travel Management System)',
-      companyName: 'DataVoice Solution',
-      role: 'Software Developer',
-      platform: 'C#, ASP.NET Core Web API, HTML, CSS, JavaScript, SQL Server',
-      description:
-        'System to manage internal activities: attendance, travel, claim, approval, and voucher integration.',
-      responsibilities: [
-        'Developed Travel Module end-to-end — APIs, DB management, approval setup, PDF generation.',
-        'Debugged and tested code as per QA standards.',
-        'Provided advice and strategies for software design improvements.',
-        'Optimized and upgraded software performance.',
-        'Preparing the Technical Docs for the new implementation.'
-      ],
-      startDate: new Date('2023-11-01'),
-      endDate: new Date('2024-03-31')
-    },
+    //{
+      //projectTitle: 'SBI Portal (Travel Management System)',
+      //companyName: 'DataVoice Solution',
+      //role: 'Software Developer',
+      //platform: 'C#, ASP.NET Core Web API, HTML, CSS, JavaScript, SQL Server',
+      //description:
+        //'System to manage internal activities: attendance, travel, claim, approval, and voucher integration.',
+      //responsibilities: [
+        //'Developed Travel Module end-to-end — APIs, DB management, approval setup, PDF generation.',
+        //'Debugged and tested code as per QA standards.',
+        //'Provided advice and strategies for software design improvements.',
+        //'Optimized and upgraded software performance.',
+        //'Preparing the Technical Docs for the new implementation.'
+      //],
+      //startDate: new Date('2023-11-01'),
+      //endDate: new Date('2024-03-31')
+    //},
     
     {
       projectTitle: 'BAZ Software (Spend Management System)',
